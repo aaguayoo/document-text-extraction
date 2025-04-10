@@ -1,11 +1,11 @@
 {
-    "git_username": "git.username",
-    "git_reponame": "git-reponame",
-    "author": "{{cookiecutter.git_username.title().replace('.',' ')}}",
-    "email": "{{cookiecutter.git_username}}@mail.com",
-    "project_name": "{{cookiecutter.git_reponame.title().replace('-',' ')}}",
-    "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
-    "description": "<Brief description of the project>",
+    "git_username": "aaguayoo",
+    "git_reponame": "document-text-extraction",
+    "author": "Alejandro Aguayo-Ortiz",
+    "email": "aaguayoo92@gmail.com",
+    "project_name": "Document-Text-Extraction",
+    "project_slug": "document_text_extraction",
+    "description": "General functionalities for text extraction of different types of documents.",
     "_copy_without_render": [
         ".cz.toml"
     ]
