@@ -76,7 +76,7 @@ class DocumentTextExtraction:
                 - 'keywords' (List[str]): A placeholder list of extracted keywords.
 
         """
-        # TODO: Replace with actual call: text = self.extractor.get_text_from_file()
+        # TODO: Replace with actual call: text = self.extractor.extract_text()
         text = "This is a dummy text."
 
         return {
