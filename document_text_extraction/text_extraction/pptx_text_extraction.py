@@ -1,0 +1,1 @@
+"""PPTX Text Extraction class."""
