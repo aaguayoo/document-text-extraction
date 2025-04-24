@@ -9,6 +9,8 @@ from pydantic.dataclasses import dataclass
 class BaseTextExtraction(ABC):
     """BaseTextExtraction abstract class."""
 
+    file: str
+
     @abstractmethod
     def extract_text(self) -> str:
         """Extract text."""
